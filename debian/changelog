@@ -1,0 +1,5 @@
+certvalidator (0.10.0) trusty; urgency=medium
+
+  * Initial release.
+
+ -- Noa Resare <noa@spotify.com>  Tue, 01 Mar 2016 14:13:54 +0000

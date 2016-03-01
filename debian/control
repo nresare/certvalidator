@@ -1,0 +1,26 @@
+Source: certvalidator
+Section: python
+Priority: optional
+Maintainer: Noa Resare <noa@spotify.com>
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python-all,
+ python3-setuptools, python-setuptools, python-asn1crypto,
+ python3-asn1crypto, python-oscrypto, python3-oscrypto
+Standards-Version: 3.9.5
+Homepage: https://github.com/wbond/oscrypto
+
+Package: python-certvalidator
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python-asn1crypto,
+ python-oscrypto
+Description: Python library for validating X.509 certificates and paths
+ Supports various options, including: validation at a specific moment in
+ time, whitelisting and revocation checks
+
+Package: python3-certvalidator
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, python3-asn1crypto,
+ python3-oscrypto
+Description: Python library for validating X.509 certificates and paths
+ Supports various options, including: validation at a specific moment in
+ time, whitelisting and revocation checks
+
